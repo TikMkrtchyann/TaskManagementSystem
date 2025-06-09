@@ -1,15 +1,31 @@
+using TaskManagement.BLL.Interfaces;
+using TaskManagement.BLL.Services;
+using TaskManagement.DAL.Interfaces;
+using TaskManagement.DAL.Repositores;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// DAL
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+
+// BLL
+builder.Services.AddScoped<ITaskService, TaskService>();
+
+// CORS for Blazor (cross-origin request system)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowBlazorClient", builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,6 +33,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowBlazorClient");
 
 app.UseAuthorization();
 

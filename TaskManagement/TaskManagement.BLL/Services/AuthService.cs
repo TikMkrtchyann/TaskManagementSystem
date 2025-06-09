@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskManagement.DAL.Entities
+namespace TaskManagement.BLL.Services
 {
-    public class Task
+    internal class AuthService
     {
-        public int Id { get; set; } 
     }
 }

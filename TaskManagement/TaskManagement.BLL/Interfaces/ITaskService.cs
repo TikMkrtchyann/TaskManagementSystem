@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TaskManagement.Shared.DTOs;
 
 namespace TaskManagement.BLL.Interfaces
 {
-    internal interface ITaskService
+    public interface ITaskService
     {
+        Task<int> CreateTaskAsync(CreateTaskDto dto);
+        Task<List<TaskDto>> GetAllAsync();
+        Task<TaskDto?> GetByIdAsync(int id);
+        Task<bool> UpdateAsync(int id, UpdateTaskDto dto);
+        Task<bool> DeleteAsync(int id);
     }
 }

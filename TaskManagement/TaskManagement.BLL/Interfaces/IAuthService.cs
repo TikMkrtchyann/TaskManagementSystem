@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskManagement.BLL.Interfaces
 {
-    internal interface IUserService
+    internal interface IAuthService
     {
     }
 }

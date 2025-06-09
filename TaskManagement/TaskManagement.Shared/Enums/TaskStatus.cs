@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskManagement.BLL.Services
+namespace TaskManagement.Shared.Enums
 {
-    internal class UserService
+    public enum TaskStatus
     {
+        NotStarted,
+        InProgress,
+        Done
     }
+
 }

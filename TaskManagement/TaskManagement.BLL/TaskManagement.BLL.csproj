@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagement.DAL\TaskManagement.DAL.csproj" />
+    <ProjectReference Include="..\TaskManagement.Shared\TaskManagement.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\bin\Debug\net8.0\TaskManagement.DAL.deps.json
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\bin\Debug\net8.0\TaskManagement.DAL.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\bin\Debug\net8.0\TaskManagement.DAL.pdb
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.csproj.AssemblyReference.cache
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.AssemblyInfoInputs.cache
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.AssemblyInfo.cs
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\refint\TaskManagement.DAL.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\TaskManagement.DAL.pdb
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.DAL\obj\Debug\net8.0\ref\TaskManagement.DAL.dll

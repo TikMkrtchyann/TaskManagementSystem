@@ -1,0 +1,11 @@
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\bin\Debug\net8.0\TaskManagement.Shared.deps.json
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\bin\Debug\net8.0\TaskManagement.Shared.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\bin\Debug\net8.0\TaskManagement.Shared.pdb
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.AssemblyInfoInputs.cache
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.AssemblyInfo.cs
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\refint\TaskManagement.Shared.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.pdb
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\ref\TaskManagement.Shared.dll

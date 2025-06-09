@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TaskManagement.DAL.Entities
 {
-    public class User
+    public class TaskEntity
     {
         public int Id { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        // Role
-        // ?
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string Status { get; set; } = "NotStarted";
     }
 }
