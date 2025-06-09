@@ -2,6 +2,7 @@
 using TaskManagement.DAL.Entities;
 using TaskManagement.DAL.Interfaces;
 using TaskManagement.Shared.DTOs;
+using TaskManagement.Shared.Enums;
 
 namespace TaskManagement.BLL.Services
 {
@@ -20,7 +21,7 @@ namespace TaskManagement.BLL.Services
             {
                 Title = dto.Title,
                 Description = dto.Description,
-                Status = "NotStarted"
+                Status = Shared.Enums.TaskStatus.NotStarted,
             };
 
             return await _repository.CreateAsync(entity);
@@ -60,7 +61,7 @@ namespace TaskManagement.BLL.Services
                 Id = id,
                 Title = dto.Title,
                 Description = dto.Description,
-                Status = dto.Status
+                Status = dto.Status,
             };
 
             return await _repository.UpdateAsync(entity);

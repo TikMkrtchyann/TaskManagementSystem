@@ -661,6 +661,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "TaskManagement.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TaskManagement.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Shared.dll": {}
+        }
       }
     }
   },
@@ -1707,32 +1717,38 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TaskManagement.Shared/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Shared/TaskManagement.Shared.csproj",
+      "msbuildProject": "../TaskManagement.Shared/TaskManagement.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Data.SqlClient >= 6.0.2",
-      "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0"
+      "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
+      "TaskManagement.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\": {},
+    "C:\\Users\\tgo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\TaskManagement.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.DAL\\TaskManagement.DAL.csproj",
       "projectName": "TaskManagement.DAL",
-      "projectPath": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\TaskManagement.DAL.csproj",
-      "packagesPath": "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\obj\\",
+      "projectPath": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.DAL\\TaskManagement.DAL.csproj",
+      "packagesPath": "C:\\Users\\tgo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tigran.mkrtchyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1741,13 +1757,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj": {
+              "projectPath": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

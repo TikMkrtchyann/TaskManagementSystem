@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using TaskManagement.DAL.Entities;
 using TaskManagement.DAL.Interfaces;
+using TaskStatus = TaskManagement.Shared.Enums.TaskStatus;
 
 // change naming
 namespace TaskManagement.DAL.Repositores
@@ -62,7 +63,7 @@ namespace TaskManagement.DAL.Repositores
                     Id = reader.GetInt32(0),
                     Title = reader.GetString(1),
                     Description = reader.GetString(2),
-                    Status = reader.GetString(3)
+                    Status = Enum.Parse<TaskStatus>(reader.GetString(3))
                 });
             }
 
@@ -86,7 +87,7 @@ namespace TaskManagement.DAL.Repositores
                     Id = reader.GetInt32(0),
                     Title = reader.GetString(1),
                     Description = reader.GetString(2),
-                    Status = reader.GetString(3)
+                    Status = Enum.Parse<TaskStatus>(reader.GetString(3))
                 };
             }
 

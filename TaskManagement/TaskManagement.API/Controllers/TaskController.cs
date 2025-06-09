@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaskManagement.BLL.Interfaces;
 using TaskManagement.Shared.DTOs;
@@ -16,6 +17,7 @@ namespace TaskManagement.API.Controllers
             _taskService = taskService;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> CreateTask([FromBody] CreateTaskDto dto)
         {
@@ -23,7 +25,7 @@ namespace TaskManagement.API.Controllers
             return Ok(new { id });
         }
 
-
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllTasks()
         {
@@ -31,6 +33,7 @@ namespace TaskManagement.API.Controllers
             return Ok(tasks);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTaskById(int id)
         {
@@ -42,6 +45,7 @@ namespace TaskManagement.API.Controllers
             return Ok(task);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTask(int id, [FromBody] UpdateTaskDto dto)
         {
@@ -52,6 +56,7 @@ namespace TaskManagement.API.Controllers
             return Ok(success);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTask(int id)
         {

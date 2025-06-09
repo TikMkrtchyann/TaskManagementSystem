@@ -9,3 +9,15 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\refint\TaskManagement.Shared.dll
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\ref\TaskManagement.Shared.dll
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\bin\Debug\net8.0\TaskManagement.Shared.deps.json
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\bin\Debug\net8.0\TaskManagement.Shared.dll
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\bin\Debug\net8.0\TaskManagement.Shared.pdb
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.AssemblyInfoInputs.cache
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.AssemblyInfo.cs
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.sourcelink.json
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.dll
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\refint\TaskManagement.Shared.dll
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\TaskManagement.Shared.pdb
+C:\Users\tgo\Desktop\blazor\TaskManagementSystem\TaskManagement\TaskManagement.Shared\obj\Debug\net8.0\ref\TaskManagement.Shared.dll

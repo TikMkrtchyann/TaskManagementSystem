@@ -439,7 +439,8 @@
       "TaskManagement.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.0.2",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "TaskManagement.Shared": "1.0.0"
         },
         "runtime": {
           "TaskManagement.DAL.dll": {

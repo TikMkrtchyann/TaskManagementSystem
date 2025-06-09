@@ -22,41 +22,49 @@ namespace TaskManagement.DAL.Repositores
 
         public async Task<UserEntity?> GetByUsernameAsync(string username)
         {
-            const string sql = "SELECT Id, Username, PasswordHash, Role FROM Users WHERE Username = @username";
+            const string query = "SELECT Id, Username, PasswordHash, Role FROM Users WHERE Username = @username";
 
-            using var conn = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@username", username);
-
-            await conn.OpenAsync();
-            using var reader = await cmd.ExecuteReaderAsync();
-
-            if (await reader.ReadAsync())
+            using (var connection = new SqlConnection(_connectionString))
             {
-                return new UserEntity
+                using (var command = new SqlCommand(query, connection))
                 {
-                    Id = reader.GetInt32(0),
-                    Username = reader.GetString(1),
-                    PasswordHash = reader.GetString(2),
-                    Role = reader.GetString(3)
-                };
-            }
+                    command.Parameters.AddWithValue("@username", username);
 
-            return null;
+                    await connection.OpenAsync();
+                    using var reader = await command.ExecuteReaderAsync();
+
+                    if (await reader.ReadAsync())
+                    {
+                        return new UserEntity
+                        {
+                            Id = reader.GetInt32(0),
+                            Username = reader.GetString(1),
+                            PasswordHash = reader.GetString(2),
+                            Role = reader.GetString(3)
+                        };
+                    }
+
+                    return null;
+                }
+            }
         }
 
         public async Task<int> CreateAsync(UserEntity user)
         {
-            const string sql = "INSERT INTO Users (Username, PasswordHash, Role) OUTPUT INSERTED.Id VALUES (@username, @hash, @role)";
+            const string query = "INSERT INTO Users (Username, PasswordHash, Role) OUTPUT INSERTED.Id VALUES (@username, @hash, @role)";
 
-            using var conn = new SqlConnection(_connectionString);
-            using var cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@username", user.Username);
-            cmd.Parameters.AddWithValue("@hash", user.PasswordHash);
-            cmd.Parameters.AddWithValue("@role", user.Role);
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@username", user.Username);
+                    command.Parameters.AddWithValue("@hash", user.PasswordHash);
+                    command.Parameters.AddWithValue("@role", user.Role);
 
-            await conn.OpenAsync();
-            return (int)await cmd.ExecuteScalarAsync();
+                    await connection.OpenAsync();
+                    return (int)await command.ExecuteScalarAsync();
+                }
+            }
         }
     }
 

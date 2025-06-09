@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TaskManagement.Shared.DTOs;
 
 namespace TaskManagement.BLL.Interfaces
 {
-    internal interface IAuthService
+    public interface IAuthService
     {
+        Task<AuthResponseDto> LoginAsync(LoginDto dto);
+        Task<int> RegisterAsync(RegisterDto dto);
     }
 }
