@@ -56,6 +56,17 @@ namespace TaskManagement.API.Controllers
             return Ok(success);
         }
 
+        [Authorize]
+        [HttpPut("{id}/status")]
+        public async Task<IActionResult> UpdateTaskStatus(int id, [FromBody] UpdateTaskStatusDto dto)
+        {
+            var success = await _taskService.UpdateStatusAsync(id, dto);
+            if (!success)
+                return NotFound();
+
+            return Ok(success);
+        }
+
         [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTask(int id)

@@ -1,0 +1,39 @@
+﻿@page "/tasks/create"
+@attribute [Authorize(Roles = "Admin")]
+@using TaskManagement.Shared.DTOs
+@using TaskManagement.UI.Services
+@inject ITaskService TaskService
+@inject NavigationManager NavigationManager
+
+<h3>Create New Task</h3>
+
+<EditForm Model="@_model" OnValidSubmit="HandleCreateTask">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Title</label>
+        <InputText class="form-control" @bind-Value="_model.Title" />
+        <ValidationMessage For="@(() => _model.Title)" />
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <InputTextArea class="form-control" @bind-Value="_model.Description" />
+        <ValidationMessage For="@(() => _model.Description)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Create Task</button>
+    <a href="/" class="btn btn-secondary mt-2">Cancel</a>
+</EditForm>
+
+@code {
+    private CreateTaskDto _model = new();
+
+    private async Task HandleCreateTask()
+    {
+        var success = await TaskService.CreateTask(_model);
+        if (success)
+        {
+            NavigationManager.NavigateTo("/"); // Go back to the task list
+        }
+        // Optionally, add an error message if it fails
+    }
+}

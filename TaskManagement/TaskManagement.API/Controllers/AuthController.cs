@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using TaskManagement.API.Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using TaskManagement.BLL.Interfaces;
 using TaskManagement.Shared.DTOs;
 
@@ -10,13 +12,13 @@ namespace TaskManagement.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly JwtTokenService _jwtTokenService;
         private readonly IAuthService _authService;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(JwtTokenService jwtTokenService, IAuthService authService)
+        public AuthController(IAuthService authService, IConfiguration configuration)
         {
-            _jwtTokenService = jwtTokenService;
             _authService = authService;
+            _configuration = configuration;
         }
 
         [HttpPost("login")]
@@ -27,7 +29,27 @@ namespace TaskManagement.API.Controllers
             if (result == null)
                 return Unauthorized();
 
-            result.Token = _jwtTokenService.GenerateToken(result.Username, result.Role);
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.Name, result.Username),
+                new Claim(ClaimTypes.Role, result.Role)
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(2),
+                signingCredentials: creds
+            );
+
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+            // ---------------------------------------------
+
+            result.Token = tokenString;
             return Ok(result);
         }
 

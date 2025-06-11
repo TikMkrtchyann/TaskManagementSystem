@@ -1,0 +1,48 @@
+﻿@page "/login"
+@using TaskManagement.Shared.DTOs
+@using TaskManagement.UI.Services
+@inject IAuthService AuthService
+@inject NavigationManager NavigationManager
+
+<h3>Login</h3>
+
+<EditForm Model="@_loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Username</label>
+        <InputText class="form-control" @bind-Value="_loginModel.Username" />
+        <ValidationMessage For="@(() => _loginModel.Username)" />
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <InputText type="password" class="form-control" @bind-Value="_loginModel.Password" />
+        <ValidationMessage For="@(() => _loginModel.Password)" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(_errorMessage))
+    {
+        <p class="text-danger">@_errorMessage</p>
+    }
+
+    <button type="submit" class="btn btn-primary mt-2">Login</button>
+</EditForm>
+
+@code {
+    private LoginDto _loginModel = new();
+    private string _errorMessage;
+
+    private async Task HandleLogin()
+    {
+        _errorMessage = string.Empty;
+        var result = await AuthService.Login(_loginModel);
+
+        if (!string.IsNullOrEmpty(result.Token))
+        {
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            _errorMessage = "Invalid username or password.";
+        }
+    }
+}

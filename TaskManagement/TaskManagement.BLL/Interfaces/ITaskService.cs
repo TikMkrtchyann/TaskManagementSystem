@@ -8,6 +8,7 @@ namespace TaskManagement.BLL.Interfaces
         Task<List<TaskDto>> GetAllAsync();
         Task<TaskDto?> GetByIdAsync(int id);
         Task<bool> UpdateAsync(int id, UpdateTaskDto dto);
+        Task<bool> UpdateStatusAsync(int id, UpdateTaskStatusDto dto);
         Task<bool> DeleteAsync(int id);
     }
 }

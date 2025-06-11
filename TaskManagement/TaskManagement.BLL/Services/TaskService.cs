@@ -67,6 +67,19 @@ namespace TaskManagement.BLL.Services
             return await _repository.UpdateAsync(entity);
         }
 
+        public async Task<bool> UpdateStatusAsync(int id, UpdateTaskStatusDto dto)
+        {
+            var existingTask = await _repository.GetByIdAsync(id);
+            if (existingTask == null)
+            {
+                return false;
+            }
+
+            existingTask.Status = dto.Status;
+
+            return await _repository.UpdateAsync(existingTask);
+        }
+
         public async Task<bool> DeleteAsync(int id)
         {
             return await _repository.DeleteAsync(id);
