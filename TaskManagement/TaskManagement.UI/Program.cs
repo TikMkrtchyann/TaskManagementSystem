@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using TaskManagement.UI;
 using TaskManagement.UI.Auth;
 using TaskManagement.UI.Services;
+using TaskManagement.UI.Services.Interfaces;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

@@ -1,5 +1,4 @@
-﻿// --- START OF FILE Auth/JwtParser.cs (Final Corrected Version) ---
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Text.Json;
 
 namespace TaskManagement.UI.Auth
@@ -15,13 +14,10 @@ namespace TaskManagement.UI.Auth
 
             if (keyValuePairs != null)
             {
-                // --- THIS IS THE CRITICAL LOGIC ---
-                // 1. Specifically find the 'role' claim.
                 keyValuePairs.TryGetValue(ClaimTypes.Role, out object roles);
 
                 if (roles != null)
                 {
-                    // 2. Handle if the role is a single string or an array of strings.
                     if (roles.ToString().Trim().StartsWith("["))
                     {
                         var parsedRoles = JsonSerializer.Deserialize<string[]>(roles.ToString());
@@ -34,12 +30,9 @@ namespace TaskManagement.UI.Auth
                     {
                         claims.Add(new Claim(ClaimTypes.Role, roles.ToString()));
                     }
-                    // 3. Remove the role from the dictionary so it's not added twice.
                     keyValuePairs.Remove(ClaimTypes.Role);
                 }
-                // --- END OF CRITICAL LOGIC ---
 
-                // Add all other claims (like name, email, etc.)
                 claims.AddRange(keyValuePairs.Select(kvp => new Claim(kvp.Key, kvp.Value.ToString())));
             }
             return claims;

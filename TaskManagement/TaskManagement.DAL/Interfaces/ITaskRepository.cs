@@ -11,7 +11,7 @@ namespace TaskManagement.DAL.Interfaces
     {
         Task<TaskEntity> GetByIdAsync(int id);
         Task<bool> UpdateAsync(TaskEntity task);
-        Task<IEnumerable<TaskEntity>> GetAllAsync();
+        Task<IEnumerable<TaskEntity>> GetAllAsync(int userId);
         Task<int> CreateAsync(TaskEntity task);
         Task<bool> DeleteAsync(int id);
     }

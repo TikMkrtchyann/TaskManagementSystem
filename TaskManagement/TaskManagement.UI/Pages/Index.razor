@@ -1,14 +1,12 @@
 ﻿@page "/"
 @attribute [Authorize]
-@using TaskManagement.Shared.DTOs
-@using TaskManagement.UI.Services
 @inject ITaskService TaskService
 
 <PageTitle>Tasks</PageTitle>
 
 <div class="d-flex justify-content-between align-items-center">
     <h1>Task List</h1>
-    <AuthorizeView Roles="Admin">
+    <AuthorizeView>
         <a href="/tasks/create" class="btn btn-primary">Create New Task</a>
     </AuthorizeView>
 </div>
@@ -26,8 +24,9 @@ else
                 <th>Title</th>
                 <th>Description</th>
                 <th>Status</th>
-                <AuthorizeView Roles="Admin">
+                <AuthorizeView>
                     <th>Actions</th>
+                    <th>IsDone</th>
                 </AuthorizeView>
             </tr>
         </thead>
@@ -43,6 +42,15 @@ else
                             <a href="@($"tasks/edit/{task.Id}")" class="btn btn-secondary btn-sm">Edit</a>
                         </td>
                     </AuthorizeView>
+                    <AuthorizeView Roles="User">
+                        <a href="@($"tasks/editUser/{task.Id}")" class="btn btn-secondary btn-sm">Edit</a>
+                    </AuthorizeView>
+                    <td>
+                        <button class="btn btn-danger btn-sm" @onclick="() => HandleDeleteTask(task.Id)">Delete</button>
+                    </td>
+                    <td>
+                        <input type="checkbox" />
+                    </td>
                 </tr>
             }
         </tbody>
@@ -55,5 +63,19 @@ else
     protected override async Task OnInitializedAsync()
     {
         _tasks = await TaskService.GetAllTasks();
+    }
+
+    private async Task LoadTasks()
+    {
+        _tasks = await TaskService.GetAllTasks();
+    }
+
+    private async Task HandleDeleteTask(int id)
+    {
+        var success = await TaskService.DeleteTask(id);
+        if (success)
+        {
+            await LoadTasks();
+        }
     }
 }

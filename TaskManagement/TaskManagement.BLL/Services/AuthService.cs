@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 using TaskManagement.BLL.Interfaces;
 using TaskManagement.DAL.Entities;
 using TaskManagement.DAL.Interfaces;
@@ -20,7 +16,7 @@ namespace TaskManagement.BLL.Services
             _userRepository = userRepository;
         }
 
-        public async Task<AuthResponseDto> LoginAsync(LoginDto dto)
+        public async Task<AuthResponseDto?> LoginAsync(LoginDto dto)
         {
             var user = await _userRepository.GetByUsernameAsync(dto.Username);
 
@@ -31,15 +27,24 @@ namespace TaskManagement.BLL.Services
             if (user.PasswordHash != hash)
                 return null;
 
+            var userRole = string.IsNullOrEmpty(user.Role) ? "User" : user.Role;
+
             return new AuthResponseDto
             {
-                Username = dto.Username,
+                Id = user.Id,
+                Username = user.Username,
                 Role = user.Role,
             };
         }
 
         public async Task<int> RegisterAsync(RegisterDto dto)
         {
+            var existingUser = await _userRepository.GetByUsernameAsync(dto.Username);
+            if (existingUser != null)
+            {
+                return 0;
+            }
+
             var hash = HashPassword(dto.Password);
             var user = new UserEntity
             {
@@ -47,7 +52,7 @@ namespace TaskManagement.BLL.Services
                 PasswordHash = hash,
                 Role = dto.Role,
             };
-
+            
             return await _userRepository.CreateAsync(user);
         }
 

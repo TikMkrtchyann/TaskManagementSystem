@@ -4,8 +4,8 @@ namespace TaskManagement.BLL.Interfaces
 {
     public interface ITaskService
     {
-        Task<int> CreateTaskAsync(CreateTaskDto dto);
-        Task<List<TaskDto>> GetAllAsync();
+        Task<int> CreateTaskAsync(CreateTaskDto dto, int userId);
+        Task<List<TaskDto>> GetAllAsync(int userId);
         Task<TaskDto?> GetByIdAsync(int id);
         Task<bool> UpdateAsync(int id, UpdateTaskDto dto);
         Task<bool> UpdateStatusAsync(int id, UpdateTaskStatusDto dto);

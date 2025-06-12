@@ -32,7 +32,8 @@ namespace TaskManagement.API.Controllers
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name, result.Username),
-                new Claim(ClaimTypes.Role, result.Role)
+                new Claim(ClaimTypes.Role, result.Role),
+                new Claim(ClaimTypes.NameIdentifier, result.Id.ToString())
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -47,7 +48,6 @@ namespace TaskManagement.API.Controllers
             );
 
             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
-            // ---------------------------------------------
 
             result.Token = tokenString;
             return Ok(result);

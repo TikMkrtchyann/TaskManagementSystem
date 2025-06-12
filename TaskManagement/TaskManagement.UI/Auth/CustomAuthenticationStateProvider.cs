@@ -1,5 +1,4 @@
-﻿// --- START OF FILE Auth/CustomAuthenticationStateProvider.cs (Cleaned) ---
-using Blazored.LocalStorage;
+﻿using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
 using TaskManagement.UI.Auth;
@@ -11,7 +10,6 @@ namespace TaskManagement.UI.Auth
         private readonly ILocalStorageService _localStorage;
         private readonly AuthenticationState _anonymous;
 
-        // REMOVED HttpClient from constructor
         public CustomAuthenticationStateProvider(ILocalStorageService localStorage)
         {
             _localStorage = localStorage;
@@ -26,8 +24,6 @@ namespace TaskManagement.UI.Auth
             {
                 return _anonymous;
             }
-
-            // REMOVED the line that set DefaultRequestHeaders.Authorization
 
             return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity(JwtParser.ParseClaimsFromJwt(token), "jwtAuthType")));
         }

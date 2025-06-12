@@ -18,7 +18,7 @@ namespace TaskManagement.DAL.Repositores
 
         public async Task<int> CreateAsync(TaskEntity task)
         {
-            const string query = @"INSERT INTO Tasks (Title, Description, Status) OUTPUT INSERTED.Id VALUES (@title, @desc, @status)";
+            const string query = @"INSERT INTO Tasks (Title, Description, Status, UserId) OUTPUT INSERTED.Id VALUES (@title, @desc, @status, @userId)";
 
             using (var connection = new SqlConnection(_connectionString))
             { 
@@ -26,7 +26,8 @@ namespace TaskManagement.DAL.Repositores
                 {
                     command.Parameters.AddWithValue("@title", task.Title);
                     command.Parameters.AddWithValue("@desc", task.Description);
-                    command.Parameters.AddWithValue("@status", task.Status);
+                    command.Parameters.AddWithValue("@status", task.Status.ToString());
+                    command.Parameters.AddWithValue("@userId", task.UserId);
 
                     await connection.OpenAsync();
                     return (int)await command.ExecuteScalarAsync();
@@ -46,13 +47,14 @@ namespace TaskManagement.DAL.Repositores
             return await cmd.ExecuteNonQueryAsync() > 0;
         }
 
-        public async Task<IEnumerable<TaskEntity>> GetAllAsync()
+        public async Task<IEnumerable<TaskEntity>> GetAllAsync(int userId)
         {
-            const string sql = "SELECT Id, Title, Description, Status FROM Tasks";
+            const string sql = "SELECT Id, Title, Description, Status, UserId FROM Tasks WHERE UserId = @userId";
             var tasks = new List<TaskEntity>();
 
             using var conn = new SqlConnection(_connectionString);
             using var cmd = new SqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@userId", userId);
             await conn.OpenAsync();
 
             using var reader = await cmd.ExecuteReaderAsync();
@@ -102,7 +104,7 @@ namespace TaskManagement.DAL.Repositores
 
             cmd.Parameters.AddWithValue("@title", task.Title);
             cmd.Parameters.AddWithValue("@desc", task.Description);
-            cmd.Parameters.AddWithValue("@status", task.Status);
+            cmd.Parameters.AddWithValue("@status", task.Status.ToString());
             cmd.Parameters.AddWithValue("@id", task.Id);
 
             await conn.OpenAsync();

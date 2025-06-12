@@ -1,9 +1,9 @@
-﻿@page "/tasks/edit/{Id:int}"
-@attribute [Authorize(Roles = "Admin")]
+﻿@page "/tasks/editUser/{Id:int}"
+@attribute [Authorize(Roles = "User")]
 @inject ITaskService TaskService
 @inject NavigationManager NavigationManager
 
-<h3>Edit Task</h3>
+<h3>EditStatus</h3>
 
 @if (_model == null)
 {
@@ -13,16 +13,6 @@ else
 {
     <EditForm Model="@_model" OnValidSubmit="HandleUpdateTask">
         <DataAnnotationsValidator />
-        <div class="form-group">
-            <label>Title</label>
-            <InputText class="form-control" @bind-Value="_model.Title" />
-            <ValidationMessage For="@(() => _model.Title)" />
-        </div>
-        <div class="form-group">
-            <label>Description</label>
-            <InputTextArea class="form-control" @bind-Value="_model.Description" />
-            <ValidationMessage For="@(() => _model.Description)" />
-        </div>
         <div class="form-group">
             <label>Status</label>
             <InputSelect class="form-control" @bind-Value="_model.Status">
@@ -35,6 +25,7 @@ else
 
         <button type="submit" class="btn btn-primary mt-2">Save Changes</button>
         <a href="/" class="btn btn-secondary mt-2">Cancel</a>
+
     </EditForm>
 }
 
@@ -50,11 +41,11 @@ else
         if (task != null)
         {
             _model = new UpdateTaskDto
-            {
-                Title = task.Title,
-                Description = task.Description,
-                Status = task.Status
-            };
+                {
+                    Title = task.Title,
+                    Description = task.Description,
+                    Status = task.Status
+                };
         }
     }
 

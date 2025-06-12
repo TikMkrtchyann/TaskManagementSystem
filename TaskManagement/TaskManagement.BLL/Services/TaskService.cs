@@ -15,28 +15,30 @@ namespace TaskManagement.BLL.Services
             _repository = repository;
         }
 
-        public async Task<int> CreateTaskAsync(CreateTaskDto dto)
+        public async Task<int> CreateTaskAsync(CreateTaskDto dto, int userId)
         {
             var entity = new TaskEntity
             {
                 Title = dto.Title,
                 Description = dto.Description,
                 Status = Shared.Enums.TaskStatus.NotStarted,
+                UserId = userId
             };
 
             return await _repository.CreateAsync(entity);
         }
 
-        public async Task<List<TaskDto>> GetAllAsync()
+        public async Task<List<TaskDto>> GetAllAsync(int userId)
         {
-            var tasks = await _repository.GetAllAsync();
+            var tasks = await _repository.GetAllAsync(userId);
 
             return tasks.Select(t => new TaskDto
             {
                 Id = t.Id,
                 Title = t.Title,
                 Description = t.Description,
-                Status = t.Status
+                Status = t.Status,
+                UserId = userId
             }).ToList();
         }
 

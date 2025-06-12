@@ -1,7 +1,5 @@
 ﻿@page "/tasks/create"
-@attribute [Authorize(Roles = "Admin")]
-@using TaskManagement.Shared.DTOs
-@using TaskManagement.UI.Services
+@attribute [Authorize]
 @inject ITaskService TaskService
 @inject NavigationManager NavigationManager
 
@@ -32,8 +30,7 @@
         var success = await TaskService.CreateTask(_model);
         if (success)
         {
-            NavigationManager.NavigateTo("/"); // Go back to the task list
+            NavigationManager.NavigateTo("/");
         }
-        // Optionally, add an error message if it fails
     }
 }

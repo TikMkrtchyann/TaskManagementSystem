@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj": {}
+    "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj": {
+    "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj",
         "projectName": "TaskManagement.Shared",
-        "projectPath": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj",
-        "packagesPath": "C:\\Users\\tgo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tgo\\Desktop\\blazor\\TaskManagementSystem\\TaskManagement\\TaskManagement.Shared\\obj\\",
+        "projectPath": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\TaskManagement.Shared.csproj",
+        "packagesPath": "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tigran.mkrtchyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

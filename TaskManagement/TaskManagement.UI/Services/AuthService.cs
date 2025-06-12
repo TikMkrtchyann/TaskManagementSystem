@@ -1,9 +1,9 @@
-﻿// --- START OF FILE Services/AuthService.cs (Cleaned) ---
-using Blazored.LocalStorage;
+﻿using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Net.Http.Json;
 using TaskManagement.Shared.DTOs;
 using TaskManagement.UI.Auth;
+using TaskManagement.UI.Services.Interfaces;
 
 namespace TaskManagement.UI.Services
 {
@@ -31,8 +31,6 @@ namespace TaskManagement.UI.Services
             await _localStorage.SetItemAsStringAsync("authToken", loginResult.Token);
             ((CustomAuthenticationStateProvider)_authenticationStateProvider).NotifyUserAuthentication(loginResult.Token);
 
-            // REMOVED the line that set DefaultRequestHeaders.Authorization
-
             return loginResult;
         }
 
@@ -40,7 +38,12 @@ namespace TaskManagement.UI.Services
         {
             await _localStorage.RemoveItemAsync("authToken");
             ((CustomAuthenticationStateProvider)_authenticationStateProvider).NotifyUserLogout();
-            // REMOVED the line that set DefaultRequestHeaders.Authorization to null
+        }
+
+        public async Task<bool> Register(RegisterDto registerModel)
+        {      
+            var response = await _httpClient.PostAsJsonAsync("api/auth/register", registerModel);
+            return response.IsSuccessStatusCode;
         }
     }
 }

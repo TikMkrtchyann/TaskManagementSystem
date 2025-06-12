@@ -1,4 +1,5 @@
-﻿using Blazored.LocalStorage;
+﻿// --- START OF FILE Auth/JwtAuthHeaderHandler.cs ---
+using Blazored.LocalStorage;
 using System.Net.Http.Headers;
 
 namespace TaskManagement.UI.Auth
@@ -14,13 +15,16 @@ namespace TaskManagement.UI.Auth
 
         protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
+            // Get the token from local storage on EVERY request
             var token = await _localStorage.GetItemAsStringAsync("authToken");
 
+            // If the token exists, add it to the Authorization header
             if (!string.IsNullOrWhiteSpace(token))
             {
-                request.Headers.Authorization = new AuthenticationHeaderValue("bearer", token);
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
 
+            // Continue sending the request
             return await base.SendAsync(request, cancellationToken);
         }
     }
