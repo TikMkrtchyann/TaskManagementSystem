@@ -130,5 +130,51 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.API.Controllers.TaskController",
+    "Method": "CreateAdminTask",
+    "RelativePath": "api/Task/admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TaskManagement.Shared.DTOs.CreateAdminTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.API.Controllers.TaskController",
+    "Method": "GetAllAdminTasks",
+    "RelativePath": "api/Task/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.API.Controllers.TaskController",
+    "Method": "GetAllUserId",
+    "RelativePath": "api/Task/userIdList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.API.Controllers.TaskController",
+    "Method": "GetAllUsernames",
+    "RelativePath": "api/Task/usernames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

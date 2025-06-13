@@ -15,6 +15,35 @@ namespace TaskManagement.DAL.Repositores
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
+        public async Task<IEnumerable<AdminTaskEntity>> GetAllAdminTasks()
+        {
+            var adminTasks = new List<AdminTaskEntity>();
+
+            const string query = "SELECT t.Id, t.Title, t.Description, t. Status, u.Username FROM Tasks t JOIN Users u ON t.UserId = u.Id";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    await connection.OpenAsync();
+                    using var reader = await command.ExecuteReaderAsync();
+
+                    while (await reader.ReadAsync())
+                    {
+                        adminTasks.Add(new AdminTaskEntity
+                        {
+                            Id = reader.GetInt32(0),
+                            Title = reader.GetString(1),
+                            Description = reader.GetString(2),
+                            Status = Enum.Parse<TaskStatus>(reader.GetString(3)),
+                            Username = reader.GetString(4),
+                        });
+                    }
+                }
+            }
+
+            return adminTasks;
+        }
 
         public async Task<int> CreateAsync(TaskEntity task)
         {
@@ -45,6 +74,31 @@ namespace TaskManagement.DAL.Repositores
             cmd.Parameters.AddWithValue("@id", id);
             await conn.OpenAsync();
             return await cmd.ExecuteNonQueryAsync() > 0;
+        }
+
+        public async Task<IEnumerable<TaskEntity>> GetAllAsync()
+        {
+            const string sql = "SELECT Id, Title, Description, Status, UserId FROM Tasks";
+            var tasks = new List<TaskEntity>();
+
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand(sql, conn);
+            await conn.OpenAsync();
+
+            using var reader = await cmd.ExecuteReaderAsync();
+            while (await reader.ReadAsync())
+            {
+                tasks.Add(new TaskEntity
+                {
+                    Id = reader.GetInt32(0),
+                    Title = reader.GetString(1),
+                    Description = reader.GetString(2),
+                    Status = Enum.Parse<TaskStatus>(reader.GetString(3)),
+                    UserId = reader.GetInt32(4),
+                });
+            }
+
+            return tasks;
         }
 
         public async Task<IEnumerable<TaskEntity>> GetAllAsync(int userId)

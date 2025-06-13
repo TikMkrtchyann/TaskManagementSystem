@@ -49,6 +49,52 @@ namespace TaskManagement.DAL.Repositores
             }
         }
 
+        public async Task<IEnumerable<int>> GetAllUserId()
+        {
+            var userIds = new List<int>();
+
+            const string query = "SELECT Id FROM Users";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    await connection.OpenAsync();
+                    using var reader = await command.ExecuteReaderAsync();
+
+                    while (await reader.ReadAsync())
+                    {
+                        userIds.Add(reader.GetInt32(0));
+                    }
+                }
+            }
+
+            return userIds;
+        }
+
+        public async Task<IEnumerable<string>> GetAllUsernames()
+        {
+            var userNames = new List<string>();
+
+            const string query = "SELECT Username FROM Users WHERE Username != 'admin'";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    await connection.OpenAsync();
+                    using var reader = await command.ExecuteReaderAsync();
+
+                    while (await reader.ReadAsync())
+                    {
+                        userNames.Add(reader.GetString(0));
+                    }
+                }
+            }
+
+            return userNames;
+        }
+
         public async Task<int> CreateAsync(UserEntity user)
         {
             const string query = "INSERT INTO Users (Username, PasswordHash, Role) OUTPUT INSERTED.Id VALUES (@username, @hash, @role)";

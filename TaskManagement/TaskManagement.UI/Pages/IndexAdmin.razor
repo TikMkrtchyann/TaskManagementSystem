@@ -1,0 +1,79 @@
+﻿@page "/admin"
+@attribute [Authorize(Roles = "Admin")]
+@inject ITaskService TaskService
+@inject IUserService UserService
+
+<PageTitle>Tasks</PageTitle>
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Task List</h1>
+    <AuthorizeView>
+        <a href="/tasks/admin/create" class="btn btn-primary">Create New Task</a>
+    </AuthorizeView>
+</div>
+
+
+@if (_tasks == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <AuthorizeView>
+                    <th>Actions</th>
+                    <th>IsDone</th>
+                    <th>Usernames</th>
+                </AuthorizeView>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in _tasks)
+            {
+                <tr>
+                    <td>@task.Title</td>
+                    <td>@task.Description</td>
+                    <td>@task.Status</td>
+                    <td>
+                        <a href="@($"tasks/edit/{task.Id}")" class="btn btn-secondary btn-sm">Edit</a>
+                        <button class="btn btn-danger btn-sm" @onclick="() => HandleDeleteTask(task.Id)">Delete</button>
+                    </td>
+                    <td>
+                        <input type="checkbox" />
+                    </td>
+                    <td>@task.Username</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<AdminTaskDto> _tasks = new();
+    private List<string> _usernames = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _tasks = await TaskService.GetAllAdminTasks();
+        _usernames = await UserService.GetAllUsernames();
+    }
+
+    private async Task LoadTasks()
+    {
+        _tasks = await TaskService.GetAllAdminTasks();
+    }
+
+    private async Task HandleDeleteTask(int id)
+    {
+        var success = await TaskService.DeleteTask(id);
+        if (success)
+        {
+            await LoadTasks();
+        }
+    }
+}

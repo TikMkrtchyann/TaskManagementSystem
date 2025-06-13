@@ -8,7 +8,6 @@ namespace TaskManagement.UI.Services
     public class TaskService : ITaskService
     {
         private readonly HttpClient _httpClient;
-        private readonly JsonSerializerOptions _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
         public TaskService(HttpClient httpClient)
         {
@@ -17,20 +16,35 @@ namespace TaskManagement.UI.Services
 
         public async Task<List<TaskDto>> GetAllTasks()
         {
-            try
-            {
-                var result = await _httpClient.GetFromJsonAsync<List<TaskDto>>("api/task");
-                return result;
-            }
-            catch
+            var result = await _httpClient.GetFromJsonAsync<List<TaskDto>>("api/task");
+            if (result is null)
             {
                 return new List<TaskDto>();
             }
+
+            return result;
+        }
+
+        public async Task<List<AdminTaskDto>> GetAllAdminTasks()
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<AdminTaskDto>>("api/task/admin");
+            if (result is null)
+            {
+                return new List<AdminTaskDto>();
+            }
+
+            return result;
         }
 
         public async Task<TaskDto> GetTaskById(int id)
         {
-            return await _httpClient.GetFromJsonAsync<TaskDto>($"api/task/{id}");
+           var result = await _httpClient.GetFromJsonAsync<TaskDto>($"api/task/{id}");
+           if (result is null)
+           {
+                return new TaskDto();
+           }
+
+           return result;
         }
             
         public async Task<bool> CreateTask(CreateTaskDto task)
@@ -39,9 +53,21 @@ namespace TaskManagement.UI.Services
             return response.IsSuccessStatusCode;
         }
 
+        public async Task<bool> CreateAdminTask(CreateAdminTaskDto task)
+        {
+            var response = await _httpClient.PostAsJsonAsync("api/task/admin", task);
+            return response.IsSuccessStatusCode;
+        }
+
         public async Task<bool> UpdateTask(int id, UpdateTaskDto task)
         {
             var response = await _httpClient.PutAsJsonAsync($"api/task/{id}", task);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> UpdateTaskStatus(int id, UpdateTaskStatusDto task)
+        {
+            var response = await _httpClient.PutAsJsonAsync($"api/task/{id}/status", task);
             return response.IsSuccessStatusCode;
         }
 

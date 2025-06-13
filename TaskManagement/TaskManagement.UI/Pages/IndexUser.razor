@@ -1,5 +1,5 @@
 ﻿@page "/"
-@attribute [Authorize]
+@attribute [Authorize(Roles = "User")]
 @inject ITaskService TaskService
 
 <PageTitle>Tasks</PageTitle>
@@ -37,15 +37,8 @@ else
                     <td>@task.Title</td>
                     <td>@task.Description</td>
                     <td>@task.Status</td>
-                    <AuthorizeView Roles="Admin">
-                        <td>
-                            <a href="@($"tasks/edit/{task.Id}")" class="btn btn-secondary btn-sm">Edit</a>
-                        </td>
-                    </AuthorizeView>
-                    <AuthorizeView Roles="User">
-                        <a href="@($"tasks/editUser/{task.Id}")" class="btn btn-secondary btn-sm">Edit</a>
-                    </AuthorizeView>
                     <td>
+                        <a href="@($"tasks/editUser/{task.Id}")" class="btn btn-secondary btn-sm">Edit</a>
                         <button class="btn btn-danger btn-sm" @onclick="() => HandleDeleteTask(task.Id)">Delete</button>
                     </td>
                     <td>

@@ -31,20 +31,28 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/CreateTask.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVGFzay5yYXpvcg==
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/CreateAdminTask.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWRtaW5UYXNrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/EditTask.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRhc2sucmF6b3I=
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/CreateUserTask.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlclRhc2sucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/EditTaskAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRhc2tBZG1pbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/EditTaskUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRhc2tVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/IndexAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/IndexUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI/Pages/Login.razor]

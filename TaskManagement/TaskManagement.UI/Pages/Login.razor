@@ -36,7 +36,14 @@
 
         if (!string.IsNullOrEmpty(result.Token))
         {
-            NavigationManager.NavigateTo("/");
+            if (result.Role == "User")
+            {
+                NavigationManager.NavigateTo("/");
+            }
+            else
+            {
+                NavigationManager.NavigateTo("/admin");
+            }
         }
         else
         {

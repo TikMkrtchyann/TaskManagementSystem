@@ -34,7 +34,7 @@ else
         </div>
 
         <button type="submit" class="btn btn-primary mt-2">Save Changes</button>
-        <a href="/" class="btn btn-secondary mt-2">Cancel</a>
+        <a href="/admin" class="btn btn-secondary mt-2">Cancel</a>
     </EditForm>
 }
 
@@ -63,7 +63,7 @@ else
         var success = await TaskService.UpdateTask(Id, _model);
         if (success)
         {
-            NavigationManager.NavigateTo("/");
+            NavigationManager.NavigateTo("/admin");
         }
     }
 }

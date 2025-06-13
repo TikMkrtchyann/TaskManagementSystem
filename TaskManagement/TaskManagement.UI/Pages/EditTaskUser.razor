@@ -33,25 +33,23 @@ else
     [Parameter]
     public int Id { get; set; }
 
-    private UpdateTaskDto _model;
+    private UpdateTaskStatusDto _model;
 
     protected override async Task OnInitializedAsync()
     {
         var task = await TaskService.GetTaskById(Id);
         if (task != null)
         {
-            _model = new UpdateTaskDto
-                {
-                    Title = task.Title,
-                    Description = task.Description,
-                    Status = task.Status
-                };
+            _model = new UpdateTaskStatusDto
+            {
+                Status = task.Status
+            };
         }
     }
 
     private async Task HandleUpdateTask()
     {
-        var success = await TaskService.UpdateTask(Id, _model);
+        var success = await TaskService.UpdateTaskStatus(Id, _model);
         if (success)
         {
             NavigationManager.NavigateTo("/");

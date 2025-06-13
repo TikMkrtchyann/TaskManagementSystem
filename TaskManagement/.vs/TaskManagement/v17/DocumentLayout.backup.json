@@ -3,40 +3,116 @@
   "WorkspaceRootPath": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\edittaskuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\edittaskuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\edittask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\edittask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\createtask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\createtask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.shared\\dtos\\createadmintaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|solutionrelative:taskmanagement.shared\\dtos\\createadmintaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\createadmintask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\createadmintask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.shared\\dtos\\admintaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|solutionrelative:taskmanagement.shared\\dtos\\admintaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\services\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\services\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\createusertask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\createusertask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\indexadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\indexadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\indexuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\indexuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\repositores\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\repositores\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\edittaskadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\edittaskadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\entities\\admintaskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\entities\\admintaskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.shared\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|solutionrelative:taskmanagement.shared\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\repositores\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\repositores\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,36 +123,12 @@
       "RelativeMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|solutionrelative:taskmanagement.shared\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\repositores\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\repositores\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\repositores\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\repositores\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073960F0-459D-4C97-A477-DC48ECA34AE6}|TaskManagement.BLL\\TaskManagement.BLL.csproj|solutionrelative:taskmanagement.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.dal\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79C1CB00-5A29-4657-A72D-9AD92F41AF54}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.shared\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ABF6CB-F83E-4F2F-8BBD-CA0AB7A1AE12}|TaskManagement.Shared\\TaskManagement.Shared.csproj|solutionrelative:taskmanagement.shared\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,20 +139,8 @@
       "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\services\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\services\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.ui\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63B31283-0211-4936-A270-3CB5D5726769}|TaskManagement.UI\\TaskManagement.UI.csproj|solutionrelative:taskmanagement.ui\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|solutionrelative:taskmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEC463C7-15CB-4FFE-B228-EC55161DC488}|TaskManagement.API\\TaskManagement.API.csproj|c:\\users\\tigran.mkrtchyan\\source\\repos\\taskmanagement\\taskmanagement.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -118,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,236 +166,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditTaskUser.razor",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\EditTaskUser.razor",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\EditTaskUser.razor",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\EditTaskUser.razor",
-              "RelativeToolTip": "TaskManagement.UI\\Pages\\EditTaskUser.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T12:30:54.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
-              "RelativeToolTip": "TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T12:01:48.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Index.razor",
-              "RelativeToolTip": "TaskManagement.UI\\Pages\\Index.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T11:05:39.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "TaskManagement.API\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:10:24.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Repositores\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "TaskManagement.DAL\\Repositores\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Repositores\\TaskRepository.cs",
-              "RelativeToolTip": "TaskManagement.DAL\\Repositores\\TaskRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:35:01.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Repositores\\UserRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement.DAL\\Repositores\\UserRepository.cs",
               "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Repositores\\UserRepository.cs",
               "RelativeToolTip": "TaskManagement.DAL\\Repositores\\UserRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T11:52:38.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TaskManagement.BLL\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\AuthService.cs",
-              "RelativeToolTip": "TaskManagement.BLL\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskManagement.API\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswEYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:36:19.958Z",
+              "WhenOpened": "2025-06-13T11:01:16.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TaskManagement.UI\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:50:03.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:12:45.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\TaskService.cs",
               "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\TaskService.cs",
               "RelativeToolTip": "TaskManagement.UI\\Services\\TaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T11:02:48.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "TaskManagement.BLL\\Services\\TaskService.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\TaskService.cs",
-              "RelativeToolTip": "TaskManagement.BLL\\Services\\TaskService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwBgAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateAdminTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\CreateAdminTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskManagement.Shared\\DTOs\\CreateAdminTaskDto.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\CreateAdminTaskDto.cs",
+              "RelativeToolTip": "TaskManagement.Shared\\DTOs\\CreateAdminTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:39:11.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "TaskManagement.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:02:08.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateTask.razor",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\CreateTask.razor",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\CreateTask.razor",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\CreateTask.razor",
-              "RelativeToolTip": "TaskManagement.UI\\Pages\\CreateTask.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T12:10:04.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Register.razor",
-              "RelativeToolTip": "TaskManagement.UI\\Pages\\Register.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T11:22:20.209Z",
+              "WhenOpened": "2025-06-13T09:48:48.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\AuthService.cs",
-              "RelativeToolTip": "TaskManagement.UI\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:02:49.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.json",
-              "RelativeDocumentMoniker": "TaskManagement.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.json",
-              "RelativeToolTip": "TaskManagement.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T10:48:22.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TaskManagement.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.Development.json",
-              "RelativeToolTip": "TaskManagement.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T10:48:24.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
-              "RelativeToolTip": "TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:56:56.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Interfaces\\ITaskService.cs",
               "RelativeDocumentMoniker": "TaskManagement.BLL\\Interfaces\\ITaskService.cs",
               "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Interfaces\\ITaskService.cs",
               "RelativeToolTip": "TaskManagement.BLL\\Interfaces\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T11:59:31.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "TaskManagement.UI\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AdminTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\AdminTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskManagement.Shared\\DTOs\\AdminTaskDto.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\AdminTaskDto.cs",
+              "RelativeToolTip": "TaskManagement.Shared\\DTOs\\AdminTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:58:54.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\TaskEntity.cs",
+              "RelativeDocumentMoniker": "TaskManagement.DAL\\Entities\\TaskEntity.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\TaskEntity.cs",
+              "RelativeToolTip": "TaskManagement.DAL\\Entities\\TaskEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:51:58.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "TaskManagement.BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:40:43.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.BLL\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\TaskService.cs",
+              "RelativeToolTip": "TaskManagement.BLL\\Services\\TaskService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:39:11.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAdminTask.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\CreateAdminTask.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\CreateAdminTask.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\CreateAdminTask.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\CreateAdminTask.razor",
+              "ViewState": "AgIAABEAAAAAAAAAAADgvyMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T11:43:34.135Z",
+              "WhenOpened": "2025-06-13T09:55:04.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminTaskEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\AdminTaskEntity.cs",
+              "RelativeDocumentMoniker": "TaskManagement.DAL\\Entities\\AdminTaskEntity.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\AdminTaskEntity.cs",
+              "RelativeToolTip": "TaskManagement.DAL\\Entities\\AdminTaskEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:08:45.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IndexUser.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\IndexUser.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\IndexUser.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\IndexUser.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\IndexUser.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T11:05:39.462Z",
               "EditorCaption": ""
             },
             {
@@ -373,59 +361,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TaskEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\TaskEntity.cs",
-              "RelativeDocumentMoniker": "TaskManagement.DAL\\Entities\\TaskEntity.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\TaskEntity.cs",
-              "RelativeToolTip": "TaskManagement.DAL\\Entities\\TaskEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:51:58.631Z",
+              "DocumentIndex": 12,
+              "Title": "IndexAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\IndexAdmin.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\IndexAdmin.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\IndexAdmin.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\IndexAdmin.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T09:36:40.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\UserEntity.cs",
-              "RelativeDocumentMoniker": "TaskManagement.DAL\\Entities\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\UserEntity.cs",
-              "RelativeToolTip": "TaskManagement.DAL\\Entities\\UserEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\UserService.cs",
+              "RelativeToolTip": "TaskManagement.UI\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:52:32.327Z",
+              "WhenOpened": "2025-06-13T11:51:07.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Repositores\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagement.DAL\\Repositores\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Repositores\\TaskRepository.cs",
+              "RelativeToolTip": "TaskManagement.DAL\\Repositores\\TaskRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:35:01.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "TaskManagement.DAL\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:27:26.589Z",
+              "WhenOpened": "2025-06-12T11:56:56.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
-              "RelativeToolTip": "TaskManagement.UI\\Services\\Interfaces\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagement.DAL\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "TaskManagement.DAL\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:12:45.834Z",
+              "WhenOpened": "2025-06-13T10:10:27.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.BLL\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TaskManagement.BLL\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:43:24.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Program.cs",
+              "RelativeToolTip": "TaskManagement.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:01:51.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Program.cs",
               "RelativeDocumentMoniker": "TaskManagement.UI\\Program.cs",
@@ -438,7 +465,144 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Login.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\Login.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T09:39:20.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\Register.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\Register.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T11:22:20.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TaskManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TaskManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:02:08.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\AuthService.cs",
+              "RelativeToolTip": "TaskManagement.UI\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:02:49.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "TaskManagement.Shared\\DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:01:48.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "TaskManagement.BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:36:19.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.json",
+              "RelativeToolTip": "TaskManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T10:48:22.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TaskManagement.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\appsettings.Development.json",
+              "RelativeToolTip": "TaskManagement.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T10:48:24.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T11:43:34.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "TaskManagement.DAL\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.DAL\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "TaskManagement.DAL\\Entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:52:32.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "TaskManagement.UI\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:27:26.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "CustomAuthenticationStateProvider.cs",
               "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Auth\\CustomAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "TaskManagement.UI\\Auth\\CustomAuthenticationStateProvider.cs",
@@ -446,20 +610,40 @@
               "RelativeToolTip": "TaskManagement.UI\\Auth\\CustomAuthenticationStateProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:03:07.366Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2025-06-12T11:03:07.366Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b467afe9-ce47-4b93-90ca-c0f8fdda40a4",
+        "Display": 1,
+        "X": -888,
+        "Y": 30,
+        "Width": 1932,
+        "Height": 1043,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Program.cs",
-              "RelativeDocumentMoniker": "TaskManagement.API\\Program.cs",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.API\\Program.cs",
-              "RelativeToolTip": "TaskManagement.API\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAwFIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:01:51.431Z",
+              "DocumentIndex": 15,
+              "Title": "EditTaskAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\EditTaskAdmin.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\EditTaskAdmin.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\EditTaskAdmin.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\EditTaskAdmin.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwCQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T12:10:13.554Z",
               "EditorCaption": ""
             }
           ]
@@ -470,12 +654,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "fbf5f1c1-2341-4236-81fb-d1abd1d40eb6",
+        "Id": "664bb01d-46e1-45fc-a184-f2e35d0d8ca0",
         "Display": 1,
-        "X": 240,
-        "Y": 192,
-        "Width": 1604,
-        "Height": 965,
+        "X": 679,
+        "Y": 255,
+        "Width": 1622,
+        "Height": 939,
         "WindowState": 2
       },
       "DocumentGroups": [
@@ -485,15 +669,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditTask.razor",
-              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\EditTask.razor",
-              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\EditTask.razor",
-              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\EditTask.razor",
-              "RelativeToolTip": "TaskManagement.UI\\Pages\\EditTask.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CreateUserTask.razor",
+              "DocumentMoniker": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\CreateUserTask.razor",
+              "RelativeDocumentMoniker": "TaskManagement.UI\\Pages\\CreateUserTask.razor",
+              "ToolTip": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\Pages\\CreateUserTask.razor",
+              "RelativeToolTip": "TaskManagement.UI\\Pages\\CreateUserTask.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T12:10:13.554Z",
+              "WhenOpened": "2025-06-13T11:32:10.326Z",
               "EditorCaption": ""
             }
           ]

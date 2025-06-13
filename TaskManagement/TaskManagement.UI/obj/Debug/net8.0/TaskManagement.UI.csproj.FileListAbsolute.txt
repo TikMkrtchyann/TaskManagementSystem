@@ -1081,8 +1081,8 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\refint\TaskManagement.UI.dll
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\TaskManagement.UI.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\ref\TaskManagement.UI.dll
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\0gexz1heoy-w8k6pfswpb.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\jt0ohc8uu1-gdot8gb60z.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\kqkupu01lv-oq5dhaoahs.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\s372fr2d3a-oe7fkfzpmg.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\qdaujis0bf-uljadem3gt.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\0gexz1heoy-7bvu44xtsi.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\jt0ohc8uu1-4vu65jb9fu.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\kqkupu01lv-vi3zhq5eo1.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\s372fr2d3a-wejdfy330q.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\qdaujis0bf-lkenke1fxv.gz

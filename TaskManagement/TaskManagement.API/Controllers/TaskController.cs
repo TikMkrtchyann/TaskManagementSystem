@@ -12,10 +12,38 @@ namespace TaskManagement.API.Controllers
     public class TaskController : ControllerBase
     {
         private readonly ITaskService _taskService;
+        private readonly IUserService _userService;
 
-        public TaskController(ITaskService taskService)
+        public TaskController(ITaskService taskService, IUserService userService)
         {
             _taskService = taskService;
+            _userService = userService;
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("userIdList")]
+        public async Task<IActionResult> GetAllUserId()
+        {
+            var userIds = await _userService.GetAllUserId();
+            if (userIds == null || userIds.Count == 0)
+            {
+                return Ok(new List<int>());
+            }
+
+            return Ok(userIds);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("usernames")]
+        public async Task<IActionResult> GetAllUsernames()
+        {
+            var usernames = await _userService.GetAllUsernames();
+            if (usernames == null ||  usernames.Count == 0)
+            {
+                return Ok(new List<int>());
+            }
+
+            return Ok(usernames);
         }
 
         [HttpPost]
@@ -29,6 +57,22 @@ namespace TaskManagement.API.Controllers
 
             var id = await _taskService.CreateTaskAsync(dto, userId);
             return Ok(new { id });
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("admin")]
+        public async Task<IActionResult> CreateAdminTask([FromBody] CreateAdminTaskDto dto)
+        {
+            var id = await _taskService.CreateAdminTaskAsync(dto);
+            return Ok(new { id });
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("admin")]
+        public async Task<IActionResult> GetAllAdminTasks()
+        {
+            var tasks = await _taskService.GetAllAdminTasks();
+            return Ok(tasks);
         }
 
         [HttpGet]
