@@ -36,7 +36,7 @@ namespace TaskManagement.BLL.Services
                 Title = dto.Title,
                 Description = dto.Description,
                 Status = Shared.Enums.TaskStatus.NotStarted,
-                UserId = dto.UserData.Keys.First(),
+                UserId = dto.UserId
             };
 
             return await _taskRepository.CreateAsync(entity);

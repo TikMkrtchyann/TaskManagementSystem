@@ -11,5 +11,6 @@ namespace TaskManagement.BLL.Interfaces
     {
         Task<List<int>> GetAllUserId();
         Task<List<string>> GetAllUsernames();
+        Task<List<UserDto>> GetAllUsers();
     }
 }

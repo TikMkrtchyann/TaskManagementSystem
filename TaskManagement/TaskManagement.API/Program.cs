@@ -4,7 +4,6 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Security.Claims;
 using System.Text;
-using System.Text.Json;
 using TaskManagement.BLL.Interfaces;
 using TaskManagement.BLL.Services;
 using TaskManagement.DAL.Interfaces;
@@ -30,11 +29,13 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 // CORS for Blazor (cross-origin request system)
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowBlazorClient", policy =>
+    options.AddPolicy("BlazorPolicy", builder =>
     {
-        policy.WithOrigins(builder.Configuration["UI_Url"] ?? "https://localhost:7003") // Read UI URL from config
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+        builder
+        .AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .SetIsOriginAllowedToAllowWildcardSubdomains();
     });
 });
 
@@ -110,6 +111,8 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("User", policy => policy.RequireClaim(ClaimTypes.Role, "User"));
 });
 
+//builder.Services.AddScoped<IValidator<CreateTaskDto>, CustomFluentValidatior>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -122,7 +125,7 @@ app.UseHttpsRedirection();
 
 app.UseRouting();
 
-app.UseCors("AllowBlazorClient");
+app.UseCors("BlazorPolicy");
 
 app.UseAuthentication();
 app.UseAuthorization();

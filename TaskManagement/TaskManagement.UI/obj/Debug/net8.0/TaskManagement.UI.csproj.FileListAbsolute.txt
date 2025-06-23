@@ -211,6 +211,8 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.XDocument.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.Shared.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.Shared.wasm
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.Shared_UI.pdb
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.Shared_UI.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.UI.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.UI.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\WindowsBase.wasm
@@ -283,6 +285,7 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\netstandard.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Text.Encoding.wasm.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.Shared_UI.pdb.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Tasks.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Data.Common.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Formats.Asn1.wasm.gz
@@ -331,6 +334,7 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Threading.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.ServiceProcess.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Net.wasm.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\TaskManagement.Shared_UI.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Thread.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Timer.wasm.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\wwwroot\_framework\emcc-props.json.gz
@@ -645,7 +649,9 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\icudt_no_CJK.dat
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\emcc-props.json
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\TaskManagement.Shared.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\TaskManagement.Shared_UI.dll
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\TaskManagement.Shared.pdb
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\bin\Debug\net8.0\TaskManagement.Shared_UI.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\TaskManagement.UI.csproj.AssemblyReference.cache
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\TaskManagement.UI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\TaskManagement.UI.AssemblyInfoInputs.cache
@@ -853,6 +859,7 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\webcil\netstandard.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\webcil\System.Private.CoreLib.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\webcil\TaskManagement.Shared.wasm
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\webcil\TaskManagement.Shared_UI.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\webcil\TaskManagement.UI.wasm
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
@@ -1071,6 +1078,13 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\s3ewn0g2vp-tptq2av103.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\1xrqdhokco-lfu7j35m59.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\jk3k86y1c0-oyz0vx2fzb.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\0gexz1heoy-ildkudnomu.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\ja6emhxwnu-v1tv8vs7z0.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\jt0ohc8uu1-o8egab5420.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\bgb3u5m6z3-6fmek6gaod.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\kqkupu01lv-ax3r3fu9a3.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\s372fr2d3a-gjhchfgknp.gz
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\qdaujis0bf-0q3g9xlpti.gz
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\staticwebassets.development.json
@@ -1081,8 +1095,3 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debu
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\refint\TaskManagement.UI.dll
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\TaskManagement.UI.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\ref\TaskManagement.UI.dll
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\0gexz1heoy-7bvu44xtsi.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\jt0ohc8uu1-4vu65jb9fu.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\kqkupu01lv-vi3zhq5eo1.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\s372fr2d3a-wejdfy330q.gz
-C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI\obj\Debug\net8.0\compressed\qdaujis0bf-lkenke1fxv.gz

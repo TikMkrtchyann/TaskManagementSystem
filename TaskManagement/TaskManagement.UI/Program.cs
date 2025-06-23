@@ -2,10 +2,11 @@ using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using MudBlazor.Services;
 using TaskManagement.UI;
-using TaskManagement.UI.Auth;
-using TaskManagement.UI.Services;
-using TaskManagement.UI.Services.Interfaces;
+using TaskManagement.Shared_UI.Auth;
+using TaskManagement.Shared_UI.Services;
+using TaskManagement.Shared_UI.Services.Interfaces;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -21,8 +22,9 @@ builder.Services.AddHttpClient("API", client =>
 
 builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("API"));
 
-builder.Services.AddBlazoredLocalStorage();
+builder.Services.AddMudServices();
 builder.Services.AddAuthorizationCore();
+builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITaskService, TaskService>();

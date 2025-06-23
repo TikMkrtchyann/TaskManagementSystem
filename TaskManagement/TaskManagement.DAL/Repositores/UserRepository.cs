@@ -1,14 +1,9 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaskManagement.DAL.Entities;
 using TaskManagement.DAL.Interfaces;
+using TaskManagement.Shared.DTOs;
 
-// change naming
 namespace TaskManagement.DAL.Repositores
 {
     public class UserRepository : IUserRepository
@@ -111,6 +106,34 @@ namespace TaskManagement.DAL.Repositores
                     return (int)await command.ExecuteScalarAsync();
                 }
             }
+        }
+
+        public async Task<IEnumerable<UserEntity>> GetAllAsync()
+        {
+            const string query = "SELECT Id, Username, PasswordHash, Role FROM Users WHERE Username != 'admin'";
+            var users = new List<UserEntity>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                using (var command = new SqlCommand(query, connection))
+                {
+                    await connection.OpenAsync();
+                    using var reader = await command.ExecuteReaderAsync();
+
+                    while (await reader.ReadAsync())
+                    {
+                        users.Add(new UserEntity
+                        {
+                            Id = reader.GetInt32(0),
+                            Username = reader.GetString(1),
+                            PasswordHash = reader.GetString(2),
+                            Role = reader.GetString(3)
+                        });
+                    }
+                }
+            }
+
+            return users;
         }
     }
 

@@ -1,0 +1,105 @@
+﻿@page "/tasks/admin/create"
+@attribute [Authorize(Roles = "Admin")]
+@inject IUserService UserService
+@inject ITaskService TaskService
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create Admin Task</PageTitle>
+
+<MudText Typo="Typo.h5" Align="Align.Center" Class="ma-4 fw-bold">New Admin Task</MudText>
+
+<MudGrid Justify="Justify.Center">
+    <MudItem>
+        <MudPaper Elevation="3" Class="pa-8 ma-4 justify-content-center" Width="1000px">
+            <MudForm Model="model" @ref="@form" Validation="validator.ValidateValue">
+                <MudTextField T="string"
+                              Label="Title"
+                              @bind-Value="model.Title"
+                              For="@(() => model.Title)" />
+
+                <MudTextField T="string"
+                              Label="Description"
+                              @bind-Value="model.Description"
+                              For="@(() => model.Description)" />
+
+                <MudSelect T="TaskManagement.Shared.DTOs.UserDto"
+                           Label="Assign to"
+                           @bind-Value="selectedUser"
+                           Required="true"
+                           RequiredError="Please select a user">
+
+                    @foreach (var user in users)
+                    {
+                        <MudSelectItem Value="@user">
+                            @user.Username
+                        </MudSelectItem>
+                    }
+
+                </MudSelect>
+            </MudForm>
+        </MudPaper>
+        <MudPaper Elevation="3" Class="pa-5 mt-6">
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       OnClick="HandleCreateTask">
+                Create
+            </MudButton>
+
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Secondary"
+                       Href="/admin">
+                Cancel
+            </MudButton>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+    MudForm form;
+    CreateAdminTaskDto model = new();
+    List<UserDto> users = new();
+    UserDto selectedUser = new();
+    CreateAdminTaskValidator validator = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var userList = await UserService.GetAllUsers();
+
+        if (userList != null)
+        {
+            users = userList;
+        }
+    }
+
+    private void OnUserSelected(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out int selectedUserId))
+        {
+            model.UserId = selectedUserId;
+        }
+    }
+
+    private async Task HandleCreateTask()
+    {
+        await form.Validate();
+
+        if (!form.IsValid)
+        {
+            Snackbar.Add("Incorrect data");
+            return;
+        }
+
+        if (selectedUser != null)
+        {
+            model.UserId = selectedUser.Id;
+        }
+
+        var success = await TaskService.CreateAdminTask(model);
+
+        if (success)
+        {
+            NavigationManager.NavigateTo("/admin");
+        }
+    }
+}

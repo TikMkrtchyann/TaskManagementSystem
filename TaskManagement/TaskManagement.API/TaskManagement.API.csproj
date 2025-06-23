@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TaskManagement.BLL\TaskManagement.BLL.csproj" />
     <ProjectReference Include="..\TaskManagement.DAL\TaskManagement.DAL.csproj" />
+    <ProjectReference Include="..\TaskManagement.Shared_UI\TaskManagement.Shared_UI.csproj" />
   </ItemGroup>
 
 </Project>

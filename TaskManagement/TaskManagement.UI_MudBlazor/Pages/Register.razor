@@ -1,0 +1,61 @@
+﻿@page "/register"
+@inject IAuthService AuthService
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+
+<PageTitle>Register</PageTitle>
+
+<MudGrid Justify="Justify.Center">
+    <MudItem>
+        <MudText Typo="Typo.h4" Align="Align.Center" Class="mt-5 fw-bold">Register</MudText>
+        <MudPaper Elevation="3" Class="pa-8 ma-4 justify-content-center" Width="400px">
+            <MudForm Model="model" @ref="form" Validation="validator.ValidateValue">
+                <MudTextField T="string"
+                              Label="Username"
+                              For="@(() => model.Username)"
+                              @bind-Value="model.Username" />
+                <MudTextField T="string"
+                              Label="Password"
+                              InputType="InputType.Password"
+                              For="@(() => model.Password)"
+                              @bind-Value="model.Password" />
+            </MudForm>
+        </MudPaper>
+        <MudPaper Elevation="3" Class="pa-5 mt-6">
+            <MudButton Class="ml-20"
+                       Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       DropShadow="false"
+                       OnClick="@(() => HandleRegister())">Validate</MudButton>
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Secondary"
+                       DropShadow="false"
+                       Href="/">Cancel</MudButton>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+
+@code {
+    MudForm form;
+    RegisterDto model = new();
+    RegisterValidator validator = new();
+
+    private async Task HandleRegister()
+    {
+        await form.Validate();
+
+        if (!form.IsValid)
+        {
+            Snackbar.Add("Invalid data");
+            return;
+        }
+
+        var success = await AuthService.Register(model);
+        if (success)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+
+    }
+}

@@ -81,3 +81,11 @@ C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\obj\Deb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.pdb
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.genruntimeconfig.cache
 C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\obj\Debug\net8.0\ref\TaskManagement.API.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Blazored.LocalStorage.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\TaskManagement.Shared_UI.dll
+C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.API\bin\Debug\net8.0\TaskManagement.Shared_UI.pdb

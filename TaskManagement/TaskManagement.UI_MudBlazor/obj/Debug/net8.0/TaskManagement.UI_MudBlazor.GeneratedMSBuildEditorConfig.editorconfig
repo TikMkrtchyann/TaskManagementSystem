@@ -1,0 +1,88 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = TaskManagement.UI_MudBlazor
+build_property.RootNamespace = TaskManagement.UI_MudBlazor
+build_property.ProjectDir = C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI_MudBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tigran.mkrtchyan\source\repos\TaskManagement\TaskManagement.UI_MudBlazor
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/CreateAdminTask.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWRtaW5UYXNrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/CreateUserTask.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlclRhc2sucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/EditTaskAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRhc2tBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/EditTaskUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRhc2tVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/Guest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/IndexAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/IndexUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkaXJlY3RUb0xvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tigran.mkrtchyan/source/repos/TaskManagement/TaskManagement.UI_MudBlazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uarp3j3212

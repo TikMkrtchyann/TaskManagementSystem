@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DSnwnNctbV0=",
+  "dgSpecHash": "JlriMmtibaI=",
   "success": true,
   "projectFilePath": "C:\\Users\\tigran.mkrtchyan\\source\\repos\\TaskManagement\\TaskManagement.UI\\TaskManagement.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
+    "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.17\\microsoft.aspnetcore.authorization.8.0.17.nupkg.sha512",
     "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.17\\microsoft.aspnetcore.components.8.0.17.nupkg.sha512",
     "C:\\Users\\tigran.mkrtchyan\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.17\\microsoft.aspnetcore.components.analyzers.8.0.17.nupkg.sha512",

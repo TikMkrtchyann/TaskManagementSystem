@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskManagement.Shared\TaskManagement.Shared.csproj" />
+    <ProjectReference Include="..\TaskManagement.Shared_UI\TaskManagement.Shared_UI.csproj" />
   </ItemGroup>
 
 </Project>

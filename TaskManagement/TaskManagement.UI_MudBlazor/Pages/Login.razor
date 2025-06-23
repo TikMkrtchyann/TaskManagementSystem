@@ -1,0 +1,76 @@
+﻿@page "/login"
+@inject IAuthService AuthService
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+
+<PageTitle>Login</PageTitle>
+
+<MudGrid Justify="Justify.Center">
+    <MudItem>
+        <MudText Typo="Typo.h5" Align="Align.Center" Class="ma-4 fw-bold">Login</MudText>
+        <MudPaper Elevation="3" Class="pa-8 ma-4 justify-content-center" Width="400px">
+            <MudForm Model="@model"
+                     @ref="@form"
+                     Validation="validator.ValidateValue">
+
+                <MudTextField T="string"
+                              Label="Username"
+                              For="@(() => model.Username)"
+                              @bind-Value="model.Username" />
+
+                <MudTextField T="string"
+                              Label="Password"
+                              For="@(() => model.Username)"
+                              InputType="InputType.Password"
+                              @bind-Value="model.Password" />
+            </MudForm>
+        </MudPaper>
+
+        <MudPaper Elevation="3" Class="pa-5 mt-6">
+            <MudButton Class="ml-20"
+                       Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       DropShadow="false"
+                       OnClick="@(() => HandleLogin())">Validate</MudButton>
+
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Secondary"
+                       DropShadow="false"
+                       Href="/">Cancel</MudButton>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+    MudForm form;
+    LoginDto model = new();
+    LoginValidator validator = new();
+
+    private async Task HandleLogin()
+    {
+        await form.Validate();
+
+        if (!form.IsValid)
+        {
+            Snackbar.Add("Incorrect login data");
+            return;
+        }
+
+        var result = await AuthService.Login(model);
+
+        if (!string.IsNullOrEmpty(result.Token))
+        {
+            if (result.Role == "User")
+            {
+                NavigationManager.NavigateTo("/user");
+            }
+            else
+            {
+                NavigationManager.NavigateTo("/admin");
+            }
+        }
+
+    }
+}
+
+

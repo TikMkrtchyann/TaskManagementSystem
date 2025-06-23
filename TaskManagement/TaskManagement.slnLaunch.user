@@ -1,6 +1,6 @@
 [
   {
-    "Name": "New Profile",
+    "Name": "Blazor and API",
     "Projects": [
       {
         "Path": "TaskManagement.API\\TaskManagement.API.csproj",
@@ -8,6 +8,19 @@
       },
       {
         "Path": "TaskManagement.UI\\TaskManagement.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "MudBlazor and API",
+    "Projects": [
+      {
+        "Path": "TaskManagement.API\\TaskManagement.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TaskManagement.UI_MudBlazor\\TaskManagement.UI_MudBlazor.csproj",
         "Action": "Start"
       }
     ]

@@ -33,22 +33,6 @@
   },
   {
     "ContainingType": "TaskManagement.API.Controllers.TaskController",
-    "Method": "CreateTask",
-    "RelativePath": "api/Task",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "TaskManagement.Shared.DTOs.CreateTaskDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskManagement.API.Controllers.TaskController",
     "Method": "GetAllTasks",
     "RelativePath": "api/Task",
     "HttpMethod": "GET",
@@ -159,8 +143,24 @@
   },
   {
     "ContainingType": "TaskManagement.API.Controllers.TaskController",
-    "Method": "GetAllUserId",
-    "RelativePath": "api/Task/userIdList",
+    "Method": "CreateTask",
+    "RelativePath": "api/Task/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TaskManagement.Shared.DTOs.CreateTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.API.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -168,9 +168,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TaskManagement.API.Controllers.TaskController",
+    "ContainingType": "TaskManagement.API.Controllers.UserController",
+    "Method": "GetAllUserId",
+    "RelativePath": "api/User/userIdList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.API.Controllers.UserController",
     "Method": "GetAllUsernames",
-    "RelativePath": "api/Task/usernames",
+    "RelativePath": "api/User/usernames",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

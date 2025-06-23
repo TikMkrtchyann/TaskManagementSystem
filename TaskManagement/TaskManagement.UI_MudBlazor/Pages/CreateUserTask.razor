@@ -1,0 +1,66 @@
+﻿@page "/tasks/user/create"
+@attribute [Authorize(Roles = "User")]
+@inject ITaskService TaskService
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+
+<MudText Typo="Typo.h5" Align="Align.Center" Class="ma-4 fw-bold">New Task</MudText>
+
+<MudGrid Justify="Justify.Center">
+    <MudItem>
+        <MudPaper Elevation="3" Class="pa-8 ma-4 justify-content-center" Width="1000px">
+            <MudForm @ref="form"
+                     Model="model"
+                     Validation="validator.ValidateValue">
+
+                <MudTextField Label="Title"
+                              For="@(() => model.Title)"
+                              @bind-Value="@model.Title"
+                              Immediate="true" />
+
+                <MudTextField Label="Description"
+                              For="@(() => model.Description)"
+                              @bind-Value="@model.Description"
+                              Immediate="true" />
+            </MudForm>
+        </MudPaper>
+
+        <MudPaper Elevation="3" Class="pa-5 mt-6">
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       OnClick="HandleCreateTask">
+                Create
+            </MudButton>
+
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Secondary"
+                       Href="/user">
+                Cancel
+            </MudButton>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+
+@code 
+{
+    MudForm form;
+    CreateTaskDto model = new();
+    CreateUserTaskValidator validator = new();
+
+    private async Task HandleCreateTask()
+    {
+        await form.Validate();
+
+        if (!form.IsValid)
+        {
+            Snackbar.Add("Invalid data");
+            return;
+        }
+
+        Snackbar.Add("Submitted!");
+        if (await TaskService.CreateTask(model))
+            NavigationManager.NavigateTo("/user");
+    }
+
+}

@@ -12,41 +12,13 @@ namespace TaskManagement.API.Controllers
     public class TaskController : ControllerBase
     {
         private readonly ITaskService _taskService;
-        private readonly IUserService _userService;
 
-        public TaskController(ITaskService taskService, IUserService userService)
+        public TaskController(ITaskService taskService)
         {
             _taskService = taskService;
-            _userService = userService;
         }
 
-        [Authorize(Roles = "Admin")]
-        [HttpGet("userIdList")]
-        public async Task<IActionResult> GetAllUserId()
-        {
-            var userIds = await _userService.GetAllUserId();
-            if (userIds == null || userIds.Count == 0)
-            {
-                return Ok(new List<int>());
-            }
-
-            return Ok(userIds);
-        }
-
-        [Authorize(Roles = "Admin")]
-        [HttpGet("usernames")]
-        public async Task<IActionResult> GetAllUsernames()
-        {
-            var usernames = await _userService.GetAllUsernames();
-            if (usernames == null ||  usernames.Count == 0)
-            {
-                return Ok(new List<int>());
-            }
-
-            return Ok(usernames);
-        }
-
-        [HttpPost]
+        [HttpPost("user")]
         public async Task<IActionResult> CreateTask([FromBody] CreateTaskDto dto)
         {
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);

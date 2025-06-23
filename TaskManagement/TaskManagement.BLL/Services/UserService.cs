@@ -30,5 +30,12 @@ namespace TaskManagement.BLL.Services
             var usernames = await _userRepository.GetAllUsernames();
             return usernames.ToList();
         }
+
+        public async Task<List<UserDto>> GetAllUsers()
+        {
+            var users = await _userRepository.GetAllAsync();
+            return users.Select(u => new UserDto { Id = u.Id, Username = u.Username })
+                .ToList();
+        }
     }
 }

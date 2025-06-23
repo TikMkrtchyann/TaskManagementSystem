@@ -1,0 +1,17 @@
+﻿<MudNavMenu>
+    <AuthorizeView>
+        <Authorized>
+            @if (context.User.IsInRole("User"))
+            {
+                <MudNavLink Href="/user" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+            }
+            else if (context.User.IsInRole("Admin"))
+            {
+                <MudNavLink Href="/admin" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+            }
+        </Authorized>
+        <NotAuthorized>
+            <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+        </NotAuthorized>
+    </AuthorizeView>
+</MudNavMenu>
